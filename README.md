@@ -8,6 +8,14 @@ This action generates a JWT Token to be used with Apple Connect API.
 
 **Required** Your issuer ID from the API Keys page in App Store Connect.
 
+### `private_key`
+
+**Required** Your app store connect API key.
+
+### `key_id`
+
+**Required**  Your private key ID from App Store Connect.
+
 ### `connect_scope`
 
 **Required** The endpoint you are wanting to use if it is a `GET` otherwise do not pass this parameter in. `example` "GET /v1/apps/123"
