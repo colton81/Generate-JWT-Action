@@ -18,7 +18,7 @@ This action generates a JWT Token to be used with Apple Connect API.
 
 ### `connect_scope`
 
-**Required** The endpoint you are wanting to use if it is a `GET` otherwise do not pass this parameter in. `example` "GET /v1/apps/123"
+ The endpoint you are wanting to use if it is a `GET` otherwise do not pass this parameter in. `example` "GET /v1/apps/123"
 
 ## Outputs
 
