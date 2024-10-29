@@ -21,10 +21,11 @@ The generated JWT token.
 ## Example usage
 
 ```yaml
-uses: colton81/generate-jwt-action@v1
-with:
-  issuer_id: ${{ secrets.ISSUER_ID }}
-  private_key: ${{ secrets.PRIVATE_KEY }}
-  key_id: ${{ secrets.KEY_ID }}
-  connect_scope: ${{ secrets.CONNECT_SCOPE }}
+  uses: colton81/generate-jwt-action@main
+  id: jwt_token_step
+  with:
+    issuer_id: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+    private_key: "-----BEGIN PRIVATE KEY-----\xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxx\n-----END PRIVATE KEY-----"
+    key_id: "xxxxxxxxxx"
+    connect_scope: "GET /v1/betaGroups"
 ```
