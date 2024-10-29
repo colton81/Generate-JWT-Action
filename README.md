@@ -21,7 +21,7 @@ The generated JWT token.
 ## Example usage
 
 ```yaml
-uses: actions/generate-jwt-token@e76147da8e5c81eaf017dede5645551d4b94427b
+uses: actions/generate-jwt-token@v1
 with:
   issuer_id: ${{ secrets.ISSUER_ID }}
   private_key: ${{ secrets.PRIVATE_KEY }}
