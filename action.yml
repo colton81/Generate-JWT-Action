@@ -1,0 +1,27 @@
+name: Generate JWT Token
+description: Generates a JWT token for App Store Connect API.
+
+inputs:
+  issuer_id:
+    description: 'The issuer ID for the JWT token'
+    required: true
+  private_key:
+    description: 'The private key for signing the JWT token'
+    required: true
+  key_id:
+    description: 'The key ID associated with the JWT token'
+    required: true
+  connect_scope:
+    description: 'The scope of the JWT token'
+    required: true
+
+outputs:
+  jwt_token:
+    description: 'The generated JWT token'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+  
+
+

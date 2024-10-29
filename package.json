@@ -1,0 +1,10 @@
+{
+    "name": "generate-jwt-token",
+    "version": "1.0.0",
+    "main": "generateToken.js",
+    "dependencies": {
+        "@actions/core": "^1.11.1",
+        "@actions/github": "^6.0.0",
+        "jsonwebtoken": "^8.5.1"
+    }
+}
