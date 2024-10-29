@@ -28,3 +28,4 @@ with:
   key_id: ${{ secrets.KEY_ID }}
   connect_scope: ${{ secrets.CONNECT_SCOPE }}
 ```
+act --container-architecture linux/amd64 -W ./test.yml
