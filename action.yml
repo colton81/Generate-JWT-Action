@@ -1,5 +1,6 @@
-name: Generate JWT Token
-description: Generates a JWT token for App Store Connect API.
+name: 'Generate JWT Token'
+author: 'Colton Hillebrand'
+description: 'Generates a JWT token for App Store Connect API.'
 
 inputs:
   issuer_id:
